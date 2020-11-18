@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="vehicles.xsl" type="text/xsl" ?>
+<!DOCTYPE vehicle_select SYSTEM "vehicles.dtd">
+<vehicle_select>
+<vehicle id="v1">
+<name>Tata Ace gold</name>
+<fare>RS 500</fare>
+<gvw>1635</gvw>
+<payload>750</payload>
+</vehicle>
+<vehicle id="v2">
+<name>Mahindra Jeeto</name>
+<fare>RS 450</fare>
+<gvw>1450</gvw>
+<payload>900</payload>
+</vehicle>
+<vehicle id="v3">
+<name>Tata Yodha Pickup</name>
+<fare>RS 850</fare>
+<gvw>3490</gvw>
+<payload>1700</payload>
+</vehicle>
+<vehicle id="v4">
+<name>Tata Intra V30</name>
+<fare>RS 650</fare>
+<gvw>2560</gvw>
+<payload>1300</payload>
+</vehicle>
+</vehicle_select>

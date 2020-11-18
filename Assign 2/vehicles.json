@@ -1,0 +1,30 @@
+[
+   {
+      "@id": "v1",
+      "name": "Tata Ace gold",
+      "fare": "RS 500",
+      "gvw": "1635",
+      "payload": "750"
+   },
+   {
+      "@id": "v2",
+      "name": "Mahindra Jeeto",
+      "fare": "RS 450",
+      "gvw": "1450",
+      "payload": "900"
+   },
+   {
+      "@id": "v3",
+      "name": "Tata Yodha Pickup",
+      "fare": "RS 850",
+      "gvw": "3490",
+      "payload": "1700"
+   },
+   {
+      "@id": "v4",
+      "name": "Tata Intra V30",
+      "fare": "RS 650",
+      "gvw": "2560",
+      "payload": "1300"
+   }
+]

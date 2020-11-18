@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="payment_details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="payment"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="payment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vehicle_id"/>
+        <xs:element ref="amount"/>
+        <xs:element ref="modeofpayment"/>
+        <xs:element ref="status"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vehicle_id" type="xs:integer"/>
+  <xs:element name="amount" type="xs:string"/>
+  <xs:element name="modeofpayment" type="xs:NCName"/>
+  <xs:element name="status" type="xs:NCName"/>
+</xs:schema>

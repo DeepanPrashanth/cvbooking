@@ -1,0 +1,30 @@
+[
+   {
+      "@id": "p1",
+      "vehicle_id": "1",
+      "amount": "RS 5000",
+      "modeofpayment": "Cash",
+      "status": "Paid"
+   },
+   {
+      "@id": "p2",
+      "vehicle_id": "2",
+      "amount": "RS 800",
+      "modeofpayment": "Card",
+      "status": "Pending"
+   },
+   {
+      "@id": "p3",
+      "vehicle_id": "3",
+      "amount": "RS 1450",
+      "modeofpayment": "GPay",
+      "status": "Paid"
+   },
+   {
+      "@id": "p4",
+      "vehicle_id": "8",
+      "amount": "RS 2800",
+      "modeofpayment": "Cash",
+      "status": "Pending"
+   }
+]

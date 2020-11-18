@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="payment.xsl" type="text/xsl" ?>
+<!DOCTYPE payment_details SYSTEM "payment.dtd">
+<payment_details>
+<payment id="p1">
+<vehicle_id>1</vehicle_id>
+<amount>RS 5000</amount>
+<modeofpayment>Cash</modeofpayment>
+<status>Paid</status>
+</payment>
+<payment id="p2">
+<vehicle_id>2</vehicle_id>
+<amount>RS 800</amount>
+<modeofpayment>Card</modeofpayment>
+<status>Pending</status>
+</payment>
+<payment id="p3">
+<vehicle_id>3</vehicle_id>
+<amount>RS 1450</amount>
+<modeofpayment>GPay</modeofpayment>
+<status>Paid</status>
+</payment>
+<payment id="p4">
+<vehicle_id>8</vehicle_id>
+<amount>RS 2800</amount>
+<modeofpayment>Cash</modeofpayment>
+<status>Pending</status>
+</payment>
+</payment_details>

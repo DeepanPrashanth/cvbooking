@@ -1,0 +1,26 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT vehicle_select (vehicle)+>
+<!ATTLIST vehicle_select
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT vehicle (name,fare,gvw,payload)>
+<!ATTLIST vehicle
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fare (#PCDATA)>
+<!ATTLIST fare
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT gvw (#PCDATA)>
+<!ATTLIST gvw
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT payload (#PCDATA)>
+<!ATTLIST payload
+  xmlns CDATA #FIXED ''>
